@@ -1,4 +1,4 @@
 [
 build
 ]
-requirements="requirements.txt"
+requirements="masfacildashboard_sql3github/requirements.txt"
