@@ -5,3 +5,4 @@ host;216.246.47.153
 database;xnqgwfdq_storeHunter
 user;xnqgwfdq_SHunter
 password;IHx4Uv!8spMB
+port;3306
