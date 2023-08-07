@@ -1,5 +1,5 @@
 #connections l or s
-connection;l
+connection;s
 store_name;Almacenes Hunter
 host;216.246.47.153
 database;xnqgwfdq_storeHunter
