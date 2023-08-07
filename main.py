@@ -73,7 +73,7 @@ def conexion_():
         cursor=conexion.cursor()
         return cursor,conexion
     else:
-        connection = st.experimental_connection('mysql', type='sql')
+        connection = st.experimental_connection('connections.mysql', type='sql')
         cursor=''
         return cursor,connection
 
