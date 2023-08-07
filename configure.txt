@@ -1,0 +1,7 @@
+#connections l or s
+connection;s
+store_name;Almacenes Hunter
+host;216.246.47.153
+database;xnqgwfdq_storeHunter
+user;xnqgwfdq_SHunter
+password;IHx4Uv!8spMB
