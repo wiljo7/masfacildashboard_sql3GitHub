@@ -34,6 +34,7 @@ host = info_dict['host']
 database = info_dict['database']
 user = info_dict['user']
 password = info_dict['password']
+port = info_dict['port']
 
 if 1==1:
     import subprocess
@@ -69,10 +70,22 @@ table_names=[]
 def conexion_():
 
     if cnx == 'l':
-        conexion=sqlite3.connect('proyecto_profesional.db')
-        cursor=conexion.cursor()
+        try:
+            print(asdasdsa)
+            conexion=sqlite3.connect('proyecto_profesional.db')
+            cursor=conexion.cursor()
+        except Exception as e:
+            print(e)
+        try:
+            conexion = mysql.connector.connect(
+                host=host,port=port, user=user, password=password, database=database)
+            cursor=conexion.cursor(buffered=True)
+        except Exception as e:
+            print(e)
+
         return cursor,conexion
     else:
+
         connection = st.experimental_connection('connections.mysql', type='sql')
         cursor=''
         return cursor,connection
