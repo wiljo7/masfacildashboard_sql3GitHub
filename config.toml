@@ -1,0 +1,4 @@
+[
+build
+]
+requirements="./requirements.txt"
